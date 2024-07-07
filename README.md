@@ -1,4 +1,5 @@
 <style>
+ 
   * {
     margin: 0;
     padding: 0;
@@ -117,6 +118,7 @@ ul li span {
 ul li span:hover {
     background-color: #e14b48;
 }
+ 
 </style>
 
 <body>
@@ -133,7 +135,7 @@ ul li span:hover {
             </ul>
         </div>
     </div>
-  
+ 
   <script>
     const listContainer = document.getElementById("list-container");
 const inputBox = document.getElementById("input-box");
@@ -173,4 +175,3 @@ function showTask () {
 
 showTask();
   </script>
-</body>
