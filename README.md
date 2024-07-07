@@ -135,8 +135,10 @@ ul li span:hover {
             </ul>
         </div>
     </div>
- 
+</body>
+
   <script>
+   
     const listContainer = document.getElementById("list-container");
 const inputBox = document.getElementById("input-box");
 
@@ -174,4 +176,5 @@ function showTask () {
 };
 
 showTask();
+   
   </script>
